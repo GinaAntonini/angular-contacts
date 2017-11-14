@@ -1,7 +1,8 @@
 "use strict";
 
-console.log("Hello, New");
+
 
 app.controller("ContactsNewCtrl", function($scope){
+    console.log("Hello, New");
     $scope.controller = "ContactsNewCtrl";
 });

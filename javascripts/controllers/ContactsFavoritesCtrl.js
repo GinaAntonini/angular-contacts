@@ -1,7 +1,6 @@
 "use strict";
 
-console.log("Hello, Favorites");
-
 app.controller("ContactsFavoritesCtrl", function($scope){
+    console.log("Hello, Favorites");
     $scope.controller = "ContactsFavoritesCtrl";
 });
