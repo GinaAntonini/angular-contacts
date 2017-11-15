@@ -1,0 +1,104 @@
+{
+    "contacts": {
+        "contact0": {
+            "firstName": "Nicholas",
+            "lastName": "Antonini",
+            "nickname": "Nick",
+            "streetAddress": "3502 South 16th Street",
+            "cityStateZip": "Arlington, VA 22204",
+            "phoneNumber": "571-239-1242",
+            "email": "nickantonini@gmail.com",
+            "birthday": "August 24th"
+        },
+        "contact1": {
+            "firstName": "Anna",
+            "lastName": "Antonini",
+            "nickname": "She's not into nicknames",
+            "streetAddress": "1722 West Abingdon Drive",
+            "cityStateZip": "Alexandria, VA 22314",
+            "phoneNumber": "703-999-2059",
+            "email": "annacantonini@gmail.com",
+            "birthday": "November 19th"
+        },
+        "contact2": {
+            "firstName": "Erin",
+            "lastName": "Guglielmo",
+            "nickname": "E",
+            "streetAddress": "1008B Virginia Avenue",
+            "cityStateZip": "Nashville, TN 37216",
+            "phoneNumber": "770-656-9205",
+            "email": "eringug@gmail.com",
+            "birthday": "November 7th"
+        },
+        "contact3": {
+            "firstName": "Ed",
+            "lastName": "Antonini",
+            "nickname": "Dad",
+            "streetAddress": "Baxter Street",
+            "cityStateZip": "Louisville, KY 40204",
+            "phoneNumber": "703-201-7142",
+            "email": "edantonini@gmail.com",
+            "birthday": "April 4th"
+        },
+        "contact4": {
+            "firstName": "Deb",
+            "lastName": "Antonini",
+            "nickname": "Mom",
+            "streetAddress": "3812 Griffith Place",
+            "cityStateZip": "Alexandria, VA 22304",
+            "phoneNumber": "703-395-5510",
+            "email": "debantonini@gmail.com",
+            "birthday": "May 30th"
+        },
+        "contact5": {
+            "firstName": "Komal",
+            "lastName": "Sheth",
+            "nickname": "Kom",
+            "streetAddress": "60 N Kitley Ave",
+            "cityStateZip": "Indianapolis, IN 46219",
+            "phoneNumber": "931-205-8241",
+            "email": "komalmsheth@gmail.com",
+            "birthday": "August 30th"
+        },
+        "contact6": {
+            "firstName": "Catherine",
+            "lastName": "Clendenning",
+            "nickname": "Cat",
+            "streetAddress": "5048 Stacy Street",
+            "cityStateZip": "Hawthorne, CA",
+            "phoneNumber": "703-946-1128",
+            "email": "cgsawn@gmail.com",
+            "birthday": "February 23rd"
+        },
+        "contact7": {
+            "firstName": "Taylor",
+            "lastName": "Vela",
+            "nickname": "Tay",
+            "streetAddress": "Somewhere in",
+            "cityStateZip": "Virginia Beach, VA",
+            "phoneNumber": "202-297-8677",
+            "email": "tcollier@gmail.com",
+            "birthday": "November 11th"
+        },
+        "contact8": {
+            "firstName": "Pratik",
+            "lastName": "Patel",
+            "nickname": "P",
+            "streetAddress": "1034 W Eastland Ave",
+            "cityStateZip": "Nashville, TN 37206",
+            "phoneNumber": "931-607-1656",
+            "email": "ppatel30@gmail.com",
+            "birthday": "December 1st"
+        },
+        "contact9": {
+            "firstName": "Tyler",
+            "lastName": "Hill",
+            "nickname": "T",
+            "streetAddress": "1400 Lischey Ave",
+            "cityStateZip": "Nashville, TN 37216",
+            "phoneNumber": "931-242-2411",
+            "email": "tghill@gmail.com",
+            "birthday": "September 20th"
+        }
+    }
+}
