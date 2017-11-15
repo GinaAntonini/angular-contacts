@@ -1,5 +1,8 @@
 @import 'colors';
+@import 'form';
+@import 'fontsizefamily';
 
 body{
     background-color: $green;
+    font-family: $siteFont;
 }
