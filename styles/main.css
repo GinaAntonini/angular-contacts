@@ -1,2 +1,38 @@
+#newContactForm {
+  background-color: #F0F8FF;
+  border-radius: 15px; }
+
+input {
+  padding: 10px;
+  width: 40%;
+  margin: 2px;
+  border-radius: 8px; }
+
+label {
+  font-size: 17px; }
+
+#submitButton {
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: Arial;
+  color: #f0f0f0;
+  font-size: 19px;
+  background: #48D1CC;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 10px;
+  width: 40%; }
+
+.submitButton {
+  background: #4eafcc;
+  background-image: -webkit-linear-gradient(top, #4eafcc, #48D1CC);
+  background-image: -moz-linear-gradient(top, #4eafcc, #48D1CC);
+  background-image: -ms-linear-gradient(top, #4eafcc, #48D1CC);
+  background-image: -o-linear-gradient(top, #4eafcc, #48D1CC);
+  background-image: linear-gradient(to bottom, #4eafcc, #48D1CC);
+  text-decoration: none; }
+
 body {
-  background-color: #48D1CC; }
+  background-color: #48D1CC;
+  font-family: "PT Serif Caption", serif; }
