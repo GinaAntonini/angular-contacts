@@ -1,4 +1,21 @@
-<div class="text-center" id="contactsview">
-    <h1>Hello, View</h1>
-    {{controller}}
+<div class="text-center" id="contactsview" ng-controller="ViewCtrl">
+	<h1>All Contacts</h1>
+	<div id="contacts">
+    	<div ng-repeat="contact in contacts" class="col-sm-6 col-md-4 contact">
+       		<div>
+           		<p class="firstName">{{contact.firstName}}</p>
+				<p class="lastName">{{contact.lastName}}</p>
+				<p class="nickname">{{contact.nickname}}</p>
+				<p class="streetAddress">{{contact.streetAddress}}</p>
+				<p class="city">{{contact.city}}</p>
+				<p class="state">{{contact.state}}</p>
+				<p class="zip">{{contact.zip}}</p>
+				<p class="phoneNumber">{{contact.phoneNumber}}</p>
+				<p class="email">{{contact.email}}</p>
+				<p class="birthday">{{contact.birthday}}</p>
+				<p class="uid">{{contact.uid}}</p>
+        	</div>
+      	</div>
+    </div>
 </div>
+
