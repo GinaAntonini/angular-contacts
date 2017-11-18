@@ -3,6 +3,7 @@
 	<div id="contacts">
     	<div ng-repeat="contact in contacts" class="col-sm-6 col-md-4 contact">
        		<div class="contactcard">
+       		<button class="btn btn-default delete" ng-click="deleteContactFromFirebase(contact.id)">X</button>
            		<p class="firstName">{{contact.firstName}}</p>
 				<p class="lastName">{{contact.lastName}}</p>
 				<p class="nickname">{{contact.nickname}}</p>
@@ -13,7 +14,6 @@
 				<p class="phoneNumber">{{contact.phoneNumber}}</p>
 				<p class="email">{{contact.email}}</p>
 				<p class="birthday">{{contact.birthday}}</p>
-				<p class="uid">{{contact.uid}}</p>
         	</div>
       	</div>
     </div>
