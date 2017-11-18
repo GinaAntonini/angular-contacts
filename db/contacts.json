@@ -11,6 +11,7 @@
             "phoneNumber": "571-239-1242",
             "email": "nickantonini@gmail.com",
             "birthday": "August 24th",
+            "favorite": true,
             "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
             
         },
@@ -25,6 +26,7 @@
             "phoneNumber": "703-999-2059",
             "email": "annacantonini@gmail.com",
             "birthday": "November 19th",
+            "favorite": true,
             "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
         },
         "contact2": {
@@ -38,6 +40,7 @@
             "phoneNumber": "770-656-9205",
             "email": "eringug@gmail.com",
             "birthday": "November 7th",
+            "favorite": true,
             "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
         },
         "contact3": {
@@ -64,6 +67,7 @@
             "phoneNumber": "703-395-5510",
             "email": "debantonini@gmail.com",
             "birthday": "May 30th",
+            "favorite": true,
             "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
         },
         "contact5": {
@@ -77,6 +81,7 @@
             "phoneNumber": "931-205-8241",
             "email": "komalmsheth@gmail.com",
             "birthday": "August 30th",
+            "favorite": true,
             "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
         },
         "contact6": {
@@ -90,6 +95,7 @@
             "phoneNumber": "703-946-1128",
             "email": "cgsawn@gmail.com",
             "birthday": "February 23rd",
+            "favorite": true,
             "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
         },
         "contact7": {
@@ -103,6 +109,7 @@
             "phoneNumber": "202-297-8677",
             "email": "tcollier@gmail.com",
             "birthday": "November 11th",
+            "favorite": true,
             "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
         },
         "contact8": {
@@ -116,6 +123,7 @@
             "phoneNumber": "931-607-1656",
             "email": "ppatel30@gmail.com",
             "birthday": "December 1st",
+            "favorite": true,
             "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
         },
         "contact9": {
@@ -129,6 +137,7 @@
             "phoneNumber": "931-242-2411",
             "email": "tghill@gmail.com",
             "birthday": "September 20th",
+            "favorite": true,
             "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
         }
     }

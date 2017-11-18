@@ -25,9 +25,30 @@ app.service("NewContactService", function($http, $q, FIREBASE_CONFIG){
 
 	const deleteContact = (contactId) => {
 		return $http.delete(`${FIREBASE_CONFIG.databaseURL}/contacts/${contactId}.json`);
+  };
+  
+  const updateContact = (contactId, contact) => {
+		return $http.put(`${FIREBASE_CONFIG.databaseURL}/contacts/${contactId}.json`), JSON.stringify(contact);
 	};
 
+  const createContactObject = (contact) => {
+    return {
+      "firstName": contact.firstName,
+      "lastName": contact.lastName,
+      "nickname": contact.nickname,
+      "streetAddress": contact.streetAddress,
+      "city": contact.city,
+      "state": contact.state,
+      "zip": contact.zip,
+      "phoneNumber": contact.phoneNumber,
+      "email": contact.email,
+      "birthday": contact.birthday,
+      "favorite": contact.favorite,
+      "uid": contact.uid,
+    };
+  };
 
-	return {getContactsFromFirebase, postNewContact, deleteContact};
+
+	return {updateContact, getContactsFromFirebase, postNewContact, deleteContact};
 });
 
