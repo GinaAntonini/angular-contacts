@@ -1,9 +1,8 @@
 "use strict";
 
-app.service("NewContactService", function($http, FIREBASE_CONFIG){
+app.service("NewContactService", function($http, $q, FIREBASE_CONFIG){
 
-	const getContacts = (userUid) => {
-		let contacts = [];
+	const getContactsFromFirebase = (userUid) => {
 		return $http.get(`${FIREBASE_CONFIG.databaseURL}/contacts.json?orderBy="uid"&equalTo="${userUid}"`);
 	};
 
@@ -16,6 +15,6 @@ app.service("NewContactService", function($http, FIREBASE_CONFIG){
 	};
 
 
-	return {getContacts, postNewContact, deleteContact};
+	return {getContactsFromFirebase, postNewContact, deleteContact};
 });
 
