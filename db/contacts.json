@@ -10,7 +10,9 @@
             "zip": "22204",
             "phoneNumber": "571-239-1242",
             "email": "nickantonini@gmail.com",
-            "birthday": "August 24th"
+            "birthday": "August 24th",
+            "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
+            
         },
         "contact1": {
             "firstName": "Anna",
@@ -22,7 +24,8 @@
             "zip": "22314",
             "phoneNumber": "703-999-2059",
             "email": "annacantonini@gmail.com",
-            "birthday": "November 19th"
+            "birthday": "November 19th",
+            "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
         },
         "contact2": {
             "firstName": "Erin",
@@ -34,7 +37,8 @@
             "zip": "37216",
             "phoneNumber": "770-656-9205",
             "email": "eringug@gmail.com",
-            "birthday": "November 7th"
+            "birthday": "November 7th",
+            "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
         },
         "contact3": {
             "firstName": "Ed",
@@ -46,7 +50,8 @@
             "zip": "40204",
             "phoneNumber": "703-201-7142",
             "email": "edantonini@gmail.com",
-            "birthday": "April 4th"
+            "birthday": "April 4th",
+            "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
         },
         "contact4": {
             "firstName": "Deb",
@@ -58,7 +63,8 @@
             "zip": "22304",
             "phoneNumber": "703-395-5510",
             "email": "debantonini@gmail.com",
-            "birthday": "May 30th"
+            "birthday": "May 30th",
+            "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
         },
         "contact5": {
             "firstName": "Komal",
@@ -70,7 +76,8 @@
             "zip": "46219",
             "phoneNumber": "931-205-8241",
             "email": "komalmsheth@gmail.com",
-            "birthday": "August 30th"
+            "birthday": "August 30th",
+            "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
         },
         "contact6": {
             "firstName": "Catherine",
@@ -82,7 +89,8 @@
             "zip": "90250",
             "phoneNumber": "703-946-1128",
             "email": "cgsawn@gmail.com",
-            "birthday": "February 23rd"
+            "birthday": "February 23rd",
+            "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
         },
         "contact7": {
             "firstName": "Taylor",
@@ -94,7 +102,8 @@
             "zip": "23450",
             "phoneNumber": "202-297-8677",
             "email": "tcollier@gmail.com",
-            "birthday": "November 11th"
+            "birthday": "November 11th",
+            "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
         },
         "contact8": {
             "firstName": "Pratik",
@@ -106,7 +115,8 @@
             "zip": "37206",
             "phoneNumber": "931-607-1656",
             "email": "ppatel30@gmail.com",
-            "birthday": "December 1st"
+            "birthday": "December 1st",
+            "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
         },
         "contact9": {
             "firstName": "Tyler",
@@ -118,7 +128,8 @@
             "zip": "37216",
             "phoneNumber": "931-242-2411",
             "email": "tghill@gmail.com",
-            "birthday": "September 20th"
+            "birthday": "September 20th",
+            "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
         }
     }
 }
