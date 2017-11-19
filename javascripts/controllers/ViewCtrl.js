@@ -18,4 +18,11 @@ app.controller("ViewCtrl", function($rootScope, $scope, NewContactService){
 		console.log("error in deleteContactFromFirebase", err);
     });
 	};
+
+	$scope.changeFavorite = (contact) => {
+		contact.favorite = !contact.favorite;
+		delete contact.$$hashKey;
+		console.log(contact);
+		NewContactService.updateContact(contact.id, contact);
+	};
 });

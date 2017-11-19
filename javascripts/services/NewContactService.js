@@ -18,6 +18,24 @@ app.service("NewContactService", function($http, $q, FIREBASE_CONFIG){
     });
   };
 
+  const getFavoritesFromFirebase = (userUid) => {
+		let contacts = [];
+    return $q((resolve, reject) => {
+      $http.get(`${FIREBASE_CONFIG.databaseURL}/contacts.json?orderBy="uid"&equalTo="${userUid}"`).then((results) => {
+        let fbContacts = results.data;
+        Object.keys(fbContacts).forEach((key) => {
+          if (fbContacts[key].favorite){
+            fbContacts[key].id = key;
+            contacts.push(fbContacts[key]);
+          }
+        });
+        resolve(contacts);
+      }).catch((err) => {
+        reject(err);
+      });
+    });
+  };
+
 
 	const postNewContact = (newContact) => {
 		return $http.post(`${FIREBASE_CONFIG.databaseURL}/contacts.json`, JSON.stringify(newContact));
@@ -28,7 +46,7 @@ app.service("NewContactService", function($http, $q, FIREBASE_CONFIG){
   };
   
   const updateContact = (contactId, contact) => {
-		return $http.put(`${FIREBASE_CONFIG.databaseURL}/contacts/${contactId}.json`), JSON.stringify(contact);
+		return $http.put(`${FIREBASE_CONFIG.databaseURL}/contacts/${contactId}.json`, JSON.stringify(contact));
 	};
 
   const createContactObject = (contact) => {
@@ -49,6 +67,6 @@ app.service("NewContactService", function($http, $q, FIREBASE_CONFIG){
   };
 
 
-	return {updateContact, getContactsFromFirebase, postNewContact, deleteContact};
+	return {updateContact, getContactsFromFirebase, getFavoritesFromFirebase, postNewContact, deleteContact};
 });
 
