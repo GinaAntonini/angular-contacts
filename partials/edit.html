@@ -41,6 +41,6 @@
         	<label>Birthday:</label>
         	<input type="text" name="birthday" class="form-control" ng-model="contact.birthday" required>
     	</div>
-    	<button id="submitButton" ng-disabled="contactForm.$invalid" ng-click="updateContactInFirebase(contact, contacts)">Update</button>
+    	<button id="submitButton" ng-disabled="editContactForm.$invalid" ng-click="updateContactInFirebase(contact, contacts)">Update</button>
 	</form>
 </div>
