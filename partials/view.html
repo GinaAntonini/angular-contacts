@@ -1,14 +1,15 @@
 <div class="text-center" id="contactsview" ng-controller="ViewCtrl">
-	<h1>All Contacts</h1>
+	<h1>Gina's Contacts</h1>
 	<div id="contacts">
     	<div ng-repeat="contact in contacts" class="col-sm-6 col-md-4 contact">
        		<div class="contactcard">
-			   <button class="btn btn-default delete" ng-click="deleteContactFromFirebase(contact.id)">X</button>
-			   <button class="btn btn-default favorite" ng-click="changeFavorite(contact)"><i ng-class="{'fa fa-star': contact.favorite, 'fa fa-star-o': !contact.favorite}"></i></button>
-			   <button class="btn btn-default contact" ng-click="editContact(contact.id)"><i class="fa fa-pencil"></i></button>
-			   <button class="btn btn-default detail" ng-click="viewDetail(contact.id)"><i class="fa fa-search-plus"></i></button>
-			    <p class="firstName">First Name: {{contact.firstName}}</p>
-				<p class="lastName">Last Name: {{contact.lastName}}</p>
+				<div class="buttons">
+						<button class="btn btn-default delete" ng-click="deleteContactFromFirebase(contact.id)"><i class="fa fa-trash-o fa-3x"></i></button>
+						<button class="btn btn-default favorite" ng-click="changeFavorite(contact)"><i ng-class="{'fa fa-star fa-3x': contact.favorite, 'fa fa-star-o fa-3x': !contact.favorite}"></i></button>
+						<button class="btn btn-default contact" ng-click="editContact(contact.id)"><i class="fa fa-pencil fa-3x"></i></button>
+						<button class="btn btn-default detail" ng-click="viewDetail(contact.id)"><i class="fa fa-search-plus fa-3x"></i></button>
+				</div>
+			    <p class="firstName">{{contact.firstName}} {{contact.lastName}}</p>
 				<p class="nickname">Nickname: {{contact.nickname}}</p>
 				<p class="streetAddress">Street Address: {{contact.streetAddress}}</p>
 				<p class="city">City: {{contact.city}}</p>

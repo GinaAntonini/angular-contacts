@@ -1,20 +1,21 @@
 <div class="text-center" id="contactsview" ng-controller="ViewCtrl">
 	<h1>Contact Details</h1>
-	<div id="contacts">
-    	<div class="col-sm-6 col-md-4 contact">
-       		<div class="contactcard">
-			   <button class="btn btn-default delete" ng-click="deleteContactFromFirebase(contact.id)">X</button>
-			   <button class="btn btn-default favorite" ng-click="changeFavorite(contact)"><i ng-class="{'fa fa-star': contact.favorite, 'fa fa-star-o': !contact.favorite}"></i></button>
-			   <p class="firstName">First Name: {{contact.firstName}}</p>
-				<p class="lastName">Last Name: {{contact.lastName}}</p>
+	<div id="details">
+    	<div class="contact">
+            <div class="detailbuttons">
+                <button class="btn btn-default favorite" ng-click="changeFavorite(contact)">Favorite <i ng-class="{'fa fa-star fa-3x': contact.favorite, 'fa fa-star-o fa-3x': !contact.favorite}"></i></button>
+            </div>
+       		<div class="detailcard">
+               <div class="image-cropper">
+               <img class="contact-image" src="{{contact.img}}">
+               </div>
+               <p class="firstName">{{contact.firstName}} {{contact.lastName}}</p>
 				<p class="nickname">Nickname: {{contact.nickname}}</p>
 				<p class="streetAddress">Street Address: {{contact.streetAddress}}</p>
-				<p class="city">City: {{contact.city}}</p>
-				<p class="state">State: {{contact.state}}</p>
-				<p class="zip">Zip: {{contact.zip}}</p>
+				<p class="city">City, State, Zip: {{contact.city}}, {{contact.state}} {{contact.zip}}</p>
 				<p class="phoneNumber">Phone Number: {{contact.phoneNumber}}</p>
 				<p class="email">Email: {{contact.email}}</p>
-				<p class="birthday">Birthday: {{contact.birthday}}</p>
+                <p class="birthday">Birthday: {{contact.birthday}}</p>
         	</div>
       	</div>
     </div>

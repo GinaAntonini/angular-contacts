@@ -1,6 +1,7 @@
 {
     "contacts": {
         "contact0": {
+            "img": "assets/images/nick.jpg",
             "firstName": "Nicholas",
             "lastName": "Antonini",
             "nickname": "Nick",
@@ -16,6 +17,7 @@
             
         },
         "contact1": {
+            "img": "assets/images/anna.jpg",
             "firstName": "Anna",
             "lastName": "Antonini",
             "nickname": "She's not into nicknames",
@@ -30,6 +32,7 @@
             "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
         },
         "contact2": {
+            "img": "assets/images/erin.jpg",
             "firstName": "Erin",
             "lastName": "Guglielmo",
             "nickname": "E",
@@ -44,6 +47,7 @@
             "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
         },
         "contact3": {
+            "img": "assets/images/dad.jpg",
             "firstName": "Ed",
             "lastName": "Antonini",
             "nickname": "Dad",
@@ -57,6 +61,7 @@
             "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
         },
         "contact4": {
+            "img": "assets/images/mom.jpg",
             "firstName": "Deb",
             "lastName": "Antonini",
             "nickname": "Mom",
@@ -71,6 +76,7 @@
             "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
         },
         "contact5": {
+            "img": "assets/images/komal.jpg",
             "firstName": "Komal",
             "lastName": "Sheth",
             "nickname": "Kom",
@@ -85,6 +91,7 @@
             "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
         },
         "contact6": {
+            "img": "assets/images/catherine.jpg",
             "firstName": "Catherine",
             "lastName": "Clendenning",
             "nickname": "Cat",
@@ -99,6 +106,7 @@
             "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
         },
         "contact7": {
+            "img": "assets/images/taylor.jpg",
             "firstName": "Taylor",
             "lastName": "Vela",
             "nickname": "Tay",
@@ -113,6 +121,7 @@
             "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
         },
         "contact8": {
+            "img": "assets/images/pratik2.jpg",
             "firstName": "Pratik",
             "lastName": "Patel",
             "nickname": "P",
@@ -127,16 +136,17 @@
             "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
         },
         "contact9": {
-            "firstName": "Tyler",
-            "lastName": "Hill",
-            "nickname": "T",
-            "streetAddress": "1400 Lischey Ave",
+            "img": "assets/images/della.jpg",
+            "firstName": "Della",
+            "lastName": "Roni",
+            "nickname": "Dell",
+            "streetAddress": "She lives with me",
             "city": "Nashville",
             "state": "TN",
             "zip": "37216",
-            "phoneNumber": "931-242-2411",
-            "email": "tghill@gmail.com",
-            "birthday": "September 20th",
+            "phoneNumber": "no thumbs",
+            "email": "no thumbs",
+            "birthday": "June 2012",
             "favorite": true,
             "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
         }

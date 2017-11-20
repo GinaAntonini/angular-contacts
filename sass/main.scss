@@ -1,8 +1,12 @@
 @import 'colors';
 @import 'form';
 @import 'fontsizefamily';
+@import 'images';
+@import 'contactcard';
+@import 'details';
+@import 'navbar';
 
 body{
-    background-color: $green;
+    background-color: $background;
     font-family: $siteFont;
 }
