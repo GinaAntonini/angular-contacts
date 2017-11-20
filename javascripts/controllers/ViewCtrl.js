@@ -22,7 +22,6 @@ app.controller("ViewCtrl", function($rootScope, $location, $scope, NewContactSer
 	$scope.changeFavorite = (contact) => {
 		contact.favorite = !contact.favorite;
 		delete contact.$$hashKey;
-		console.log(contact);
 		NewContactService.updateContact(contact.id, contact);
 	};
 
