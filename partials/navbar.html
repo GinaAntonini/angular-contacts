@@ -1,21 +1,13 @@
 <nav class="navbar" ng-controller="NavCtrl">
-    <div class="container-fluid" id="thenavbar">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
+    <div id="thenavbar">
+        <div class="title">
             <a class="navbar-brand" href="#">Gina's Contacts</a>
         </div>
-    
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right" ng-show="!uid">
+          <ul class="navlinks" ng-show="!uid">
             <li><a ng-href="#!/login" id="login" class="loginnav">Login</a></li>
           </ul>
 
-          <ul class="nav navbar-nav navbar-right" ng-show="uid" id="cssmenu">
+          <ul class="navlinks" ng-show="uid">
             <li><a ng-href="#!/contacts/new" id="contactsnew" class="newnav">New Contacts</a></li>
             <li><a ng-href="#!/contacts/view" id="contactsview" class="viewnav">View Contacts</a></li>
             <li><a ng-href="#!/contacts/favorites" id="contactsfavorites" class="favoritesnav">Favorites</a></li>
