@@ -5,8 +5,13 @@
 @import 'contactcard';
 @import 'details';
 @import 'navbar';
+@import 'favorites';
 
 body{
     background-color: $background;
-    font-family: $siteFont;
+    font-family: $titleFont;
+}
+
+p {
+    font-size: 20px;
 }

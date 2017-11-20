@@ -1,46 +1,48 @@
 <div class="text-center" id="contactsnew" ng-controller="NewCtrl">
+	<div class="newcontactspage">
     <h1>New Contact Form</h1>
     <form name="contactForm" id="contactForm">
-    	<div class="form-group" id="firstname">
+    	<div id="firstname">
         	<label>First Name:</label>
-        	<input type="text" name="firstName"class="form-control" ng-model="newContact.firstName" required>
-    	</div>
-    	<div class="form-group" id="lastname">
+			<input type="text" name="firstName"class="form-control" ng-model="newContact.firstName" required>
+		</div>
+    	<div id="lastname">
         	<label>Last Name:</label>
         	<input type="text" name="lastName" class="form-control" ng-model="newContact.lastName" required>
     	</div>
-    	<div class="form-group">
+    	<div class="nickname">
         	<label>Nickname:</label>
         	<input type="text" name="nickname" class="form-control" ng-model="newContact.nickname" required>
     	</div>
-    	<div class="form-group">
-        	<label>Street Address:</label>
+    	<div class="streetAddress">
+        	<label>Address:</label>
         	<input type="text" name="streetAddress" class="form-control" ng-model="newContact.streetAddress" required>
     	</div>
-    	<div class="form-group">
+    	<div class="city">
         	<label>City:</label>
         	<input type="text" name="city" class="form-control" ng-model="newContact.city" required>
     	</div>
-    	<div class="form-group">
+    	<div class="state">
         	<label>State:</label>
         	<input type="text" name="state" class="form-control" ng-model="newContact.state" required>
     	</div>
-    	<div class="form-group">
+    	<div class="zip">
         	<label>Zip:</label>
         	<input type="text" name="zip" class="form-control" ng-model="newContact.zip" required>
     	</div>
-    	<div class="form-group">
+    	<div class="phoneNumber">
         	<label>Phone Number:</label>
         	<input type="text" name="phoneNumber" class="form-control" ng-model="newContact.phoneNumber" required>
     	</div>
-    	<div class="form-group">
+    	<div class="email">
         	<label>Email:</label>
         	<input type="text" name="email" class="form-control" ng-model="newContact.email" required>
     	</div>
-    	<div class="form-group">
+    	<div class="birthday">
         	<label>Birthday:</label>
         	<input type="text" name="birthday" class="form-control" ng-model="newContact.birthday" required>
     	</div>
     	<button id="submitButton" ng-disabled="contactForm.$invalid" ng-click="addNewContactinFirebase()">Submit</button>
 	</form>
+	</div>
 </div>
