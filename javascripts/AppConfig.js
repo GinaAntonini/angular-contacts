@@ -42,6 +42,11 @@ app.config(function($routeProvider){
       controller: 'ViewCtrl',
       resolve: {isAuth}
     })
+    .when("/contacts/edit/:id", {
+      templateUrl: 'partials/edit.html',
+      controller: 'EditCtrl',
+      resolve: {isAuth}
+    })
     .when("/login", {
       templateUrl: 'partials/login.html',
       controller: 'LoginCtrl'

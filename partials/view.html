@@ -5,7 +5,8 @@
        		<div class="contactcard">
 			   <button class="btn btn-default delete" ng-click="deleteContactFromFirebase(contact.id)">X</button>
 			   <button class="btn btn-default favorite" ng-click="changeFavorite(contact)"><i ng-class="{'fa fa-star': contact.favorite, 'fa fa-star-o': !contact.favorite}"></i></button>
-           		<p class="firstName">First Name: {{contact.firstName}}</p>
+			   <button class="btn btn-default contact" ng-click="editContact(contact.id)"><i class="fa fa-pencil"></i></button>
+			   <p class="firstName">First Name: {{contact.firstName}}</p>
 				<p class="lastName">Last Name: {{contact.lastName}}</p>
 				<p class="nickname">Nickname: {{contact.nickname}}</p>
 				<p class="streetAddress">Street Address: {{contact.streetAddress}}</p>

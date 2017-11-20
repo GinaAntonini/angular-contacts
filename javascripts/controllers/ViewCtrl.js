@@ -1,6 +1,6 @@
 "use strict";
 
-app.controller("ViewCtrl", function($rootScope, $scope, NewContactService){
+app.controller("ViewCtrl", function($rootScope, $location, $scope, NewContactService){
 	const getContacts = () => {
 		$scope.newContact = [];
     		NewContactService.getContactsFromFirebase($rootScope.uid).then((results) => {
@@ -25,4 +25,9 @@ app.controller("ViewCtrl", function($rootScope, $scope, NewContactService){
 		console.log(contact);
 		NewContactService.updateContact(contact.id, contact);
 	};
+
+	$scope.editContact = (contactId) => {
+		$location.path(`/contacts/edit/${contactId}`);
+	};
+	
 });
