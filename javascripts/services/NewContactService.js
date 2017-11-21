@@ -7,6 +7,7 @@ app.service("NewContactService", function($http, $q, FIREBASE_CONFIG){
     return $q((resolve, reject) => {
       $http.get(`${FIREBASE_CONFIG.databaseURL}/contacts.json?orderBy="uid"&equalTo="${userUid}"`).then((results) => {
         let fbContacts = results.data;
+        console.log("fbcontacts", fbContacts);
         Object.keys(fbContacts).forEach((key) => {
           fbContacts[key].id = key;
             contacts.push(fbContacts[key]);
@@ -45,10 +46,6 @@ app.service("NewContactService", function($http, $q, FIREBASE_CONFIG){
 		return $http.delete(`${FIREBASE_CONFIG.databaseURL}/contacts/${contactId}.json`);
   };
   
-  const updateContactAfterEdit = (contact, contactId) => {
-		return $http.put(`${FIREBASE_CONFIG.databaseURL}/contacts/${contactId}.json`, JSON.stringify(contact));
-  };
-
   const updateContact = (contactId, contact) => {
 		return $http.put(`${FIREBASE_CONFIG.databaseURL}/contacts/${contactId}.json`, JSON.stringify(contact));
   };
@@ -75,6 +72,6 @@ app.service("NewContactService", function($http, $q, FIREBASE_CONFIG){
   };
 
 
-	return {getSingleContact, updateContact, updateContactAfterEdit, getContactsFromFirebase, getFavoritesFromFirebase, postNewContact, deleteContact};
+	return {getSingleContact, updateContact, getContactsFromFirebase, getFavoritesFromFirebase, postNewContact, deleteContact};
 });
 
