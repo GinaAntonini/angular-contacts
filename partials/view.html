@@ -1,19 +1,23 @@
 <div class="text-center" id="contactsview" ng-controller="ViewCtrl">
-	<h1>All Contacts</h1>
+	<h1>Gina's Contacts</h1>
 	<div id="contacts">
     	<div ng-repeat="contact in contacts" class="col-sm-6 col-md-4 contact">
        		<div class="contactcard">
-       		<button class="btn btn-default delete" ng-click="deleteContactFromFirebase(contact.id)">X</button>
-           		<p class="firstName">{{contact.firstName}}</p>
-				<p class="lastName">{{contact.lastName}}</p>
-				<p class="nickname">{{contact.nickname}}</p>
-				<p class="streetAddress">{{contact.streetAddress}}</p>
-				<p class="city">{{contact.city}}</p>
-				<p class="state">{{contact.state}}</p>
-				<p class="zip">{{contact.zip}}</p>
-				<p class="phoneNumber">{{contact.phoneNumber}}</p>
-				<p class="email">{{contact.email}}</p>
-				<p class="birthday">{{contact.birthday}}</p>
+				<div class="buttons">
+						<button class="btn btn-default delete" ng-click="deleteContactFromFirebase(contact.id)"><i class="fa fa-trash-o fa-3x"></i></button>
+						<button class="btn btn-default favorite" ng-click="changeFavorite(contact)"><i ng-class="{'fa fa-star fa-3x': contact.favorite, 'fa fa-star-o fa-3x': !contact.favorite}"></i></button>
+						<button class="btn btn-default contact" ng-click="editContact(contact.id)"><i class="fa fa-pencil fa-3x"></i></button>
+						<button class="btn btn-default detail" ng-click="viewDetail(contact.id)"><i class="fa fa-search-plus fa-3x"></i></button>
+				</div>
+			    <p class="firstName">{{contact.firstName}} {{contact.lastName}}</p>
+				<p class="nickname">Nickname: {{contact.nickname}}</p>
+				<p class="streetAddress">Street Address: {{contact.streetAddress}}</p>
+				<p class="city">City: {{contact.city}}</p>
+				<p class="state">State: {{contact.state}}</p>
+				<p class="zip">Zip: {{contact.zip}}</p>
+				<p class="phoneNumber">Phone Number: {{contact.phoneNumber}}</p>
+				<p class="email">Email: {{contact.email}}</p>
+				<p class="birthday">Birthday: {{contact.birthday}}</p>
         	</div>
       	</div>
     </div>

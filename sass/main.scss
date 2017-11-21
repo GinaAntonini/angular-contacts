@@ -1,8 +1,17 @@
 @import 'colors';
 @import 'form';
 @import 'fontsizefamily';
+@import 'images';
+@import 'contactcard';
+@import 'details';
+@import 'navbar';
+@import 'favorites';
 
 body{
-    background-color: $green;
+    background-color: $background;
     font-family: $siteFont;
+}
+
+p {
+    font-size: 17px;
 }

@@ -3,13 +3,17 @@
   border-radius: 15px; }
 
 input {
-  padding: 10px;
-  width: 40%;
-  margin: 2px;
+  padding: 20px;
+  width: 20%;
+  margin: 2%;
   border-radius: 8px; }
 
 label {
-  font-size: 17px; }
+  float: left;
+  text-align: right;
+  margin-right: 15px;
+  width: 100px;
+  font-size: 13px; }
 
 #submitButton {
   -webkit-border-radius: 11;
@@ -33,6 +37,166 @@ label {
   background-image: linear-gradient(to bottom, #4eafcc, #48D1CC);
   text-decoration: none; }
 
+.newcontactspage {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #008080;
+  padding: 40px;
+  border-radius: 13%; }
+
+.image-cropper {
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  border: 2px solid white;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  overflow: hidden; }
+
+.contact-image {
+  display: block;
+  height: auto;
+  width: 100%; }
+
+.googleimage img {
+  width: 420px;
+  height: 420px; }
+
+.buttons {
+  float: left;
+  display: flex;
+  flex-direction: column; }
+
+.fa-trash-o:hover {
+  color: #66CDAA; }
+
+.fa-pencil:hover {
+  color: #66CDAA; }
+
+.fa-star:hover {
+  color: #66CDAA; }
+
+.fa-search-plus:hover {
+  color: #66CDAA; }
+
+#contacts {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 5px; }
+
+.contactcard {
+  border: 2px solid white;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  padding: 16px;
+  width: 300px;
+  height: 450px;
+  margin: 4%;
+  background-color: #66CDAA;
+  -webkit-box-shadow: 6px 7px 14px 0px rgba(52, 50, 50, 0.39);
+  -moz-box-shadow: 6px 7px 14px 0px rgba(52, 50, 50, 0.39);
+  box-shadow: 6px 7px 14px 0px rgba(52, 50, 50, 0.39); }
+
+.detailbuttons {
+  margin: 0 auto;
+  padding: 2px; }
+
+.fa-pencil:hover {
+  color: #66CDAA; }
+
+.fa-star:hover {
+  color: #66CDAA; }
+
+.fa-search-plus:hover {
+  color: #66CDAA; }
+
+.detailcard {
+  width: 520px;
+  height: 600px;
+  margin: 0 auto;
+  border: 2px solid white;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  padding: 16px;
+  background-color: #66CDAA;
+  -webkit-box-shadow: 6px 7px 14px 0px rgba(52, 50, 50, 0.39);
+  -moz-box-shadow: 6px 7px 14px 0px rgba(52, 50, 50, 0.39);
+  box-shadow: 6px 7px 14px 0px rgba(52, 50, 50, 0.39); }
+
+.navbar {
+  background-color: #008080;
+  color: #ddb68b;
+  height: 90px; }
+
+.navbar-brand {
+  color: #ddb68b;
+  font-size: 45px;
+  margin-top: 2%;
+  font-family: "Cutive", serif; }
+
+.title a:hover {
+  color: white; }
+
+.navlinks {
+  list-style: none;
+  float: right;
+  padding-right: 2%;
+  padding-top: 2%; }
+
+#thenavbar ul {
+  list-style-type: none;
+  margin: 1%;
+  padding: 0;
+  overflow: hidden; }
+
+#thenavbar li {
+  float: left; }
+
+#thenavbar li a {
+  display: block;
+  color: #ddb68b;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; }
+
+#thenavbar li a:hover {
+  color: white; }
+
+.buttons {
+  float: left;
+  display: flex;
+  flex-direction: column; }
+
+.fa-star:hover {
+  color: #66CDAA; }
+
+#contacts {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 5px; }
+
+.favoritescard {
+  border: 2px solid white;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  padding: 16px;
+  width: 300px;
+  height: 450px;
+  margin: 4%;
+  background-color: #cd7766;
+  -webkit-box-shadow: 6px 7px 14px 0px rgba(52, 50, 50, 0.39);
+  -moz-box-shadow: 6px 7px 14px 0px rgba(52, 50, 50, 0.39);
+  box-shadow: 6px 7px 14px 0px rgba(52, 50, 50, 0.39); }
+
 body {
-  background-color: #48D1CC;
-  font-family: "PT Serif Caption", serif; }
+  background-color: #d8d8d8;
+  font-family: "Cutive", serif; }
+
+p {
+  font-size: 17px; }

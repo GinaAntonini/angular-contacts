@@ -1,0 +1,46 @@
+.navbar {
+    background-color: $newcontactsbackground;
+    color: $navbartext;
+    height: 90px;
+}
+
+.navbar-brand {
+    color: $navbartext;
+    font-size: 45px;
+    margin-top: 2%;
+    font-family: $siteFont;
+}
+
+.title a:hover{
+    color: white;
+}
+
+.navlinks {
+    list-style: none;
+    float: right;
+    padding-right: 2%;
+    padding-top: 2%;
+}
+
+#thenavbar ul {
+    list-style-type: none;
+    margin: 1%;
+    padding: 0;
+    overflow: hidden;
+}
+
+#thenavbar li {
+    float: left;
+}
+
+#thenavbar li a {
+    display: block;
+    color: $navbartext;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#thenavbar li a:hover {
+    color: white;
+}

@@ -1,0 +1,32 @@
+.detailbuttons {
+    margin: 0 auto;
+    padding: 2px;
+    
+}
+
+.fa-pencil:hover {
+    color: $green;
+}
+
+.fa-star:hover {
+    color: $green;
+}
+
+.fa-search-plus:hover {
+    color: $green;
+}
+
+.detailcard {
+    width: 520px;
+    height: 600px;
+    margin: 0 auto;
+    border: 2px solid white;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    padding: 16px;
+    background-color: $green;
+    -webkit-box-shadow: 6px 7px 14px 0px rgba(52, 50, 50, 0.39);
+    -moz-box-shadow:    6px 7px 14px 0px rgba(52, 50, 50, 0.39);
+    box-shadow:         6px 7px 14px 0px rgba(52, 50, 50, 0.39);
+}

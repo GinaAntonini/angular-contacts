@@ -1,6 +1,6 @@
 "use strict";
 
-app.controller("ViewCtrl", function($rootScope, $scope, NewContactService){
+app.controller("ViewCtrl", function($rootScope, $location, $scope, NewContactService){
 	const getContacts = () => {
 		$scope.newContact = [];
     		NewContactService.getContactsFromFirebase($rootScope.uid).then((results) => {
@@ -18,4 +18,19 @@ app.controller("ViewCtrl", function($rootScope, $scope, NewContactService){
 		console.log("error in deleteContactFromFirebase", err);
     });
 	};
+
+	$scope.changeFavorite = (contact) => {
+		contact.favorite = !contact.favorite;
+		delete contact.$$hashKey;
+		NewContactService.updateContact(contact.id, contact);
+	};
+
+	$scope.editContact = (contactId) => {
+		$location.path(`/contacts/edit/${contactId}`);
+	};
+
+	$scope.viewDetail = (contactId) => {
+		$location.path(`/contacts/detail/${contactId}`);
+	};
+	
 });
