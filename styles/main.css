@@ -1,19 +1,13 @@
 #newContactForm {
   background-color: #F0F8FF;
-  border-radius: 15px; }
+  border-radius: 15px;
+  color: white; }
 
 input {
   padding: 20px;
   width: 20%;
   margin: 2%;
   border-radius: 8px; }
-
-label {
-  float: left;
-  text-align: right;
-  margin-right: 15px;
-  width: 100px;
-  font-size: 13px; }
 
 #submitButton {
   -webkit-border-radius: 11;
@@ -42,7 +36,8 @@ label {
   margin: 0 auto;
   background-color: #008080;
   padding: 40px;
-  border-radius: 13%; }
+  border-radius: 13%;
+  color: white; }
 
 .searchinput {
   width: 80%; }
@@ -139,7 +134,7 @@ label {
   color: #ddb68b;
   font-size: 45px;
   margin-top: 2%;
-  font-family: "Cutive", serif; }
+  font-family: "PT Sans", sans-serif; }
 
 .title a:hover {
   color: white; }
@@ -199,7 +194,7 @@ label {
 
 body {
   background-color: #d8d8d8;
-  font-family: "Cutive", serif; }
+  font-family: "PT Sans", sans-serif; }
 
 p {
   font-size: 17px; }

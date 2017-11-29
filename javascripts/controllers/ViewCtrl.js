@@ -32,5 +32,9 @@ app.controller("ViewCtrl", function($rootScope, $location, $scope, NewContactSer
 	$scope.viewDetail = (contactId) => {
 		$location.path(`/contacts/detail/${contactId}`);
 	};
+
+	$scope.addPaw = (contact) => {
+	
+	}
 	
 });

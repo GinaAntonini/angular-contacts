@@ -13,6 +13,7 @@
             "email": "nickantonini@gmail.com",
             "birthday": "August 24th",
             "favorite": true,
+            "hasPet": false,
             "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
             
         },
@@ -29,6 +30,7 @@
             "email": "annacantonini@gmail.com",
             "birthday": "November 19th",
             "favorite": true,
+            "hasPet": true,
             "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
         },
         "contact2": {
@@ -44,6 +46,7 @@
             "email": "eringug@gmail.com",
             "birthday": "November 7th",
             "favorite": true,
+            "hasPet": true,
             "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
         },
         "contact3": {
@@ -58,6 +61,7 @@
             "phoneNumber": "703-201-7142",
             "email": "edantonini@gmail.com",
             "birthday": "April 4th",
+            "hasPet": true,
             "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
         },
         "contact4": {
@@ -73,6 +77,7 @@
             "email": "debantonini@gmail.com",
             "birthday": "May 30th",
             "favorite": true,
+            "hasPet": true,
             "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
         },
         "contact5": {
@@ -88,6 +93,7 @@
             "email": "komalmsheth@gmail.com",
             "birthday": "August 30th",
             "favorite": true,
+            "hasPet": true,
             "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
         },
         "contact6": {
@@ -103,6 +109,7 @@
             "email": "cgsawn@gmail.com",
             "birthday": "February 23rd",
             "favorite": true,
+            "hasPet": true,
             "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
         },
         "contact7": {
@@ -118,6 +125,7 @@
             "email": "tcollier@gmail.com",
             "birthday": "November 11th",
             "favorite": true,
+            "hasPet": true,
             "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
         },
         "contact8": {
@@ -133,6 +141,7 @@
             "email": "ppatel30@gmail.com",
             "birthday": "December 1st",
             "favorite": true,
+            "hasPet": false,
             "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
         },
         "contact9": {
@@ -148,6 +157,7 @@
             "email": "no thumbs",
             "birthday": "June 2012",
             "favorite": true,
+            "hasPet": false,
             "uid": "Tulf4bipLLSkO25LUHXjBwLn2Yv1"
         }
     }
