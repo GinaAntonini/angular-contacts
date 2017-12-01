@@ -11,7 +11,7 @@ app.controller("EditCtrl", function($location, $routeParams, $scope, $rootScope,
     };
     getContact();
 
-    $scope.updateContactInFirebase = (contact, contacts) => {
+    $scope.updateContactInFirebase = (contact) => {
 		NewContactService.updateContact($routeParams.id, contact).then(() => {
             $location.path("/contacts/view");
         }).catch((err) => {
