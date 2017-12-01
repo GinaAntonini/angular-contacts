@@ -68,6 +68,7 @@ app.service("NewContactService", function($http, $q, FIREBASE_CONFIG){
       "birthday": contact.birthday,
       "favorite": contact.favorite,
       "uid": contact.uid,
+      "hasPet": contact.hasPet
     };
   };
 
