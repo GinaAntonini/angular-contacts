@@ -45,10 +45,6 @@ app.service("NewContactService", function($http, $q, FIREBASE_CONFIG){
 		return $http.delete(`${FIREBASE_CONFIG.databaseURL}/contacts/${contactId}.json`);
   };
   
-  const updateContactAfterEdit = (contact, contactId) => {
-		return $http.put(`${FIREBASE_CONFIG.databaseURL}/contacts/${contactId}.json`, JSON.stringify(contact));
-  };
-
   const updateContact = (contactId, contact) => {
 		return $http.put(`${FIREBASE_CONFIG.databaseURL}/contacts/${contactId}.json`, JSON.stringify(contact));
   };
@@ -71,10 +67,11 @@ app.service("NewContactService", function($http, $q, FIREBASE_CONFIG){
       "birthday": contact.birthday,
       "favorite": contact.favorite,
       "uid": contact.uid,
+      "hasPet": contact.hasPet
     };
   };
 
 
-	return {getSingleContact, updateContact, updateContactAfterEdit, getContactsFromFirebase, getFavoritesFromFirebase, postNewContact, deleteContact};
+	return {getSingleContact, updateContact, getContactsFromFirebase, getFavoritesFromFirebase, postNewContact, deleteContact};
 });
 

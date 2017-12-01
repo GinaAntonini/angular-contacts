@@ -1,7 +1,12 @@
 <div class="text-center" id="contactsview" ng-controller="ViewCtrl">
 	<h1>Gina's Contacts</h1>
+	<div id="custom-search-input">
+			<div class="searchbar">
+				<input class="searchinput" type="text" placeholder="Search" ng-model="searchText"/>
+			</div>
+		</div>
 	<div id="contacts">
-    	<div ng-repeat="contact in contacts" class="col-sm-6 col-md-4 contact">
+    	<div ng-repeat="contact in contacts | filter: searchText" class="col-sm-6 col-md-4 contact">
        		<div class="contactcard">
 				<div class="buttons">
 						<button class="btn btn-default delete" ng-click="deleteContactFromFirebase(contact.id)"><i class="fa fa-trash-o fa-3x"></i></button>
@@ -18,6 +23,9 @@
 				<p class="phoneNumber">Phone Number: {{contact.phoneNumber}}</p>
 				<p class="email">Email: {{contact.email}}</p>
 				<p class="birthday">Birthday: {{contact.birthday}}</p>
+				<span><i ng-class="{'fa fa-paw fa-3x': contact.hasPet, '': !contact.hasPet}"></i></span>
+				
+				
         	</div>
       	</div>
     </div>
