@@ -48,8 +48,8 @@
 		</div>
 			<div class="hasPet">
 				<label>Pet Friendly/Haz Pet?:</label>
-				<input type="radio" name="hasPet" class="form-control" value="true" ng-model="newContact.hasPet" required> Yes
-				<input type="radio" name="hasPet" class="form-control" value="false" ng-model="newContact.hasPet" required> No
+				<input type="radio" name="hasPet" class="form-control" ng-value=true ng-false-value="No" ng-model="newContact.hasPet" required>Yes
+				<input type="radio" name="hasPet" class="form-control" ng-value=false ng-model="newContact.hasPet" required>No
 			</div>
     	<button id="submitButton" ng-disabled="contactForm.$invalid" ng-click="addNewContactinFirebase()">Submit</button>
 	</form>
