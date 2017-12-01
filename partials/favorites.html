@@ -15,6 +15,7 @@
 				<p class="phoneNumber">Phone Number: {{favorite.phoneNumber}}</p>
 				<p class="email">Email: {{favorite.email}}</p>
 				<p class="birthday">Birthday: {{favorite.birthday}}</p>
+				<span><i ng-class="{'fa fa-paw fa-3x': favorite.hasPet, '': !favorite.hasPet}"></i></span>
         	</div>
       	</div>
     </div>

@@ -7,7 +7,7 @@ app.service("NewContactService", function($http, $q, FIREBASE_CONFIG){
     return $q((resolve, reject) => {
       $http.get(`${FIREBASE_CONFIG.databaseURL}/contacts.json?orderBy="uid"&equalTo="${userUid}"`).then((results) => {
         let fbContacts = results.data;
-        console.log("fbcontacts", fbContacts);
+        // console.log("fbcontacts", fbContacts);
         Object.keys(fbContacts).forEach((key) => {
           fbContacts[key].id = key;
             contacts.push(fbContacts[key]);

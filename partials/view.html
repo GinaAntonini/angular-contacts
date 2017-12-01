@@ -23,8 +23,9 @@
 				<p class="phoneNumber">Phone Number: {{contact.phoneNumber}}</p>
 				<p class="email">Email: {{contact.email}}</p>
 				<p class="birthday">Birthday: {{contact.birthday}}</p>
-				<p class="hasPet"><i class="fa fa-paw fa-3x"></i></p>
-				<!-- <span>{{hasPet ? 'hasPet.true' : 'hasPet.false'}}</span> -->
+				<span><i ng-class="{'fa fa-paw fa-3x': contact.hasPet, '': !contact.hasPet}"></i></span>
+				
+				
         	</div>
       	</div>
     </div>
